@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/auth/auth",
+    "pages/lock/lock",
+    "pages/me/me",
+    "pages/personal/personal",
+    "pages/personal/records",
+    "pages/record/detail",
+    "pages/need_auth/need_auth"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f7f7f8",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Lock",
+    "backgroundColor": "#f7f7f8",
+    "backgroundTextStyle": "dark"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lock/lock",
+        "text": "开锁"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于记录开锁位置"
+    }
+  }
+}

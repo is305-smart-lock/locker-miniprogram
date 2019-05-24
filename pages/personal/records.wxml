@@ -1,0 +1,6 @@
+<!-- pages/personal/personal.wxml -->
+<view class="container">
+  <van-cell-group title="开门记录">
+    <van-cell wx:for="{{ records }}" title="{{ item.building.name }}" value="{{ item.created_at }}" is-link url="/pages/record/detail?name={{item.building.name}}&time={{item.created_at}}&latitude={{item.latitude}}&longitude={{item.longitude}}" link-type="navigateTo" />
+  </van-cell-group>
+</view>

@@ -1,0 +1,5 @@
+<!-- pages/auth/auth.wxml -->
+<view class="container">
+  <wux-prompt style="margin-top: 40%;" visible="{{ ret_data.success === true }}" title="欢迎" text="欢迎使用智能门禁" buttons="{{ buttons }}" bind:click="buttonClicked" />
+  <wux-prompt style="margin-top: 40%;" visible="{{ ret_data.success === false }}" title="失败" text="{{ ret_data.message }}" />
+</view>

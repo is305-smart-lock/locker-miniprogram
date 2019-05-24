@@ -1,0 +1,51 @@
+/* pages/lock/lock.wxss */
+
+.user_info {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.bdr-ripple-ani-btn {
+  display: block;
+  background: #FFF;
+  width: 128rpx;
+  height: 128rpx;
+  line-height: 128rpx;
+  text-align: center;
+  border-radius: 100%;
+  box-sizing: border-box;
+  color: #666;
+  animation: at-ripple 0.6s linear infinite;
+  overflow: hidden;
+}
+
+.bdr-ripple-ani-btn.pink {
+  background: #ff4081;
+  color:white;
+  animation: at-ripple-pink 0.6s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Pink Animate */
+@-webkit-keyframes at-ripple-pink {
+  0% {
+    box-shadow: 0 4px 10px rgba(255, 65, 130, 0.1), 0 0 0 0 rgba(255, 65, 130, 0.1), 0 0 0 5px rgba(255, 65, 130, 0.1), 0 0 0 10px rgba(255, 65, 130, 0.1);
+  }
+  100% {
+    box-shadow: 0 4px 10px rgba(255, 65, 130, 0.1), 0 0 0 5px rgba(255, 65, 130, 0.1), 0 0 0 10px rgba(255, 65, 130, 0.1), 0 0 0 20px rgba(255, 65, 130, 0);
+  }
+}
+@keyframes at-ripple-pink {
+  0% {
+    box-shadow: 0 4px 10px rgba(255, 65, 130, 0.1), 0 0 0 0 rgba(255, 65, 130, 0.1), 0 0 0 5px rgba(255, 65, 130, 0.1), 0 0 0 10px rgba(255, 65, 130, 0.1);
+  }
+  100% {
+    box-shadow: 0 4px 10px rgba(255, 65, 130, 0.1), 0 0 0 5px rgba(255, 65, 130, 0.1), 0 0 0 10px rgba(255, 65, 130, 0.1), 0 0 0 20px rgba(255, 65, 130, 0);
+  }
+}
+
+
+.container {
+  padding: 20rpx 20rpx;
+}

@@ -1,0 +1,11 @@
+<!-- pages/need_auth/need_auth.wxml -->
+<view class="container">
+  <wux-prompt style="margin-top: 40%;" title="欢迎" visible="{{true}}" />
+  <view style="font-size: 0.8rem; color: grey; text-align: center; width: 80%; margin: 0 10%;">欢迎使用智能门禁</view>
+  <view style="font-size: 0.8rem; color: grey; text-align: center; width: 80%; margin: 0 10%;">
+    在开始使用前，您必须先在外部浏览器登录 https://lock.dy.tongqu.me/ 进行注册
+  </view>
+  <view style="font-size: 0.8rem; color: grey; text-align: center; width: 80%; margin: 0 10%;">
+    注册完成后，您可以扫描页面上的小程序码开始使用
+  </view>
+</view>

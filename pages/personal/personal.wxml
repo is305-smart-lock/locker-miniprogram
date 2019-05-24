@@ -1,0 +1,10 @@
+<!-- pages/personal/personal.wxml -->
+<view class="container">
+  <van-cell-group title="个人信息">
+    <van-cell title="姓名" value="{{ user_info.name }}" />
+    <van-cell title="学号" value="{{ user_info.code }}" />
+    <van-cell title="邮箱" value="{{ user_info.email }}" />
+    <van-cell title="寝室楼" value="{{ user_info.building.name }}" />
+    <van-cell title="状态" value="{{ user_info.building_verified ? '正常' : '信息待审核' }}" />
+  </van-cell-group>
+</view>

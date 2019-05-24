@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wux-prompt": "wux-weapp/prompt/index",
+    "wux-animation-group": "wux-weapp/animation-group/index"
+  }
+}

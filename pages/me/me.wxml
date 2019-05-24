@@ -1,0 +1,16 @@
+<!-- pages/me/me.wxml -->
+<view class="container">
+  <van-row gutter="20" style="padding: 20rpx 20rpx;">
+    <van-col span="5">
+      <wux-icon type="ios-contact" size="54" style="float: right" />
+    </van-col>
+    <van-col span="19" style="font-size: 0.8rem; color: grey;">
+      <view style="font-weight: 500; font-size: 1rem;">何炳昌</view>
+      <view>516030910231 / hebingchang</view>
+    </van-col>
+  </van-row>
+  <van-cell-group title="个人设置">
+    <van-cell title="个人信息" is-link url="/pages/personal/personal" link-type="navigateTo" />
+    <van-cell title="开门记录" is-link url="/pages/personal/records" link-type="navigateTo" />
+  </van-cell-group>
+</view>

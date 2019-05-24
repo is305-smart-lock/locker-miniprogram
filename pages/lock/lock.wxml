@@ -1,0 +1,14 @@
+<!-- pages/lock/lock.wxml -->
+<view style="height: 100vh;">
+  <view class="container">
+    <span class="user_info">
+      {{ user_info.name }} / {{ user_info.code }} ({{ user_info.building.name }})
+    </span>
+    <view style="text-align: center; margin-top: 40vh; width: 100%;">
+      <a href="#" class="bdr-ripple-ani-btn pink two" bind:tap="unlock">
+        <wux-icon type="{{ loading ? 'ios-time' : 'ios-key' }}" size="24" />
+      </a>
+    </view>
+  </view>
+  <van-notify id="van-notify" />
+</view>
